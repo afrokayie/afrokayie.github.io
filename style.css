@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: hsl(0, 100%, 74%);
+	background-image: url(bg-intro-desktop.png);
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	place-items: center;
+	
+}
+
+main{
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	padding: 50px;
+	margin: auto;
+}
+
+.div-whole{
+	margin: 20px;
+}
+
+.div-intro{
+	margin: 20px;
+	
+}
+
+main .div-intro h1, p{
+	color: white;
+}
+
+main .div-whole .div-price p {
+	text-align: center;
+}
+
+.div-price{
+	background-color: hsl(248, 32%, 49%) ;
+	padding: 15px;
+
+	border-radius: hsl(249, 10%, 26%);
+	border-radius: 10px;
+	box-shadow: 0px 10px hsl(249, 10%, 26%, 0.07);
+	
+}
+
+.div-price p {
+	color: white;
+}
+
+.div-form{
+	padding: 30px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 10px hsl(249, 10%, 26%, 0.07);
+	text-align: center;
+	
+}
+
+.div-form .form-inner{
+	
+}
+
+input{
+	
+	padding: 10px;
+	margin: 10px;
+	border: 1px light hsl(246, 25%, 77%);
+	border-radius: 5px;
+	width: 80%;
+
+}
+
+
+
+button{
+	border: 1px light lightgreen;
+	padding: 10px;
+	border-radius:5px;
+	background-color: hsl(154, 59%, 51%);
+	width: 89%;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+.p-down{
+	color:  hsl(246, 25%, 77%);
+	font-size: 12px;
+}
+
+.highlight{
+	color: red;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+    	flex-direction: column;
+    	padding: 20px;
+    	text-align: center;
+    	width: 100%;
+    }
+
+    
+
+
